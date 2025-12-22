@@ -19,8 +19,8 @@ import fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.Crucib
 import fr.lucreeper74.createmetallurgy.content.blocks.industrial_crucible.CrucibleRenderer;
 import fr.lucreeper74.createmetallurgy.content.blocks.light_bulb.LightBulbBlockEntity;
 import fr.lucreeper74.createmetallurgy.content.blocks.light_bulb.LightBulbRenderer;
-import fr.lucreeper74.createmetallurgy.content.blocks.ladle_depot.PouringStationBlockEntity;
-import fr.lucreeper74.createmetallurgy.content.blocks.ladle_depot.PouringStationRenderer;
+//import fr.lucreeper74.createmetallurgy.content.blocks.ladle_depot.PouringStationBlockEntity;
+//import fr.lucreeper74.createmetallurgy.content.blocks.ladle_depot.PouringStationRenderer;
 
 import static fr.lucreeper74.createmetallurgy.CreateMetallurgy.REGISTRATE;
 
@@ -81,12 +81,12 @@ public class CMBlockEntityTypes {
             .renderer(() -> FaucetRenderer::new)
             .register();
 
-    public static final BlockEntityEntry<PouringStationBlockEntity> LADLE_DEPOT = REGISTRATE
-            .blockEntity("ladle_depot", PouringStationBlockEntity::new)
-            //.visual(() -> LabelingDepotVisual::new, true)
-            .validBlocks(CMBlocks.LADLE_DEPOT_BLOCK)
-            .renderer(() -> PouringStationRenderer::new)
-            .register();
+//    public static final BlockEntityEntry<PouringStationBlockEntity> LADLE_DEPOT = REGISTRATE
+//            .blockEntity("ladle_depot", PouringStationBlockEntity::new)
+//            //.visual(() -> LabelingDepotVisual::new, true)
+//            .validBlocks(CMBlocks.LADLE_DEPOT_BLOCK)
+//            .renderer(() -> PouringStationRenderer::new)
+//            .register();
 
     public static void register() {}
 }

@@ -69,7 +69,7 @@ public class CMBlocks {
             .transform(pickaxeOnly())
             .tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .tag(Tags.Blocks.STORAGE_BLOCKS)
-            .transform(tagBlockAndItem("storage_blocks/raw_wolframite"))
+            .transform(tagBlockAndItem(forgeBlockTag("storage_blocks/raw_wolframite"), forgeItemTag("storage_blocks/raw_wolframite")))
             .tag(Tags.Items.STORAGE_BLOCKS)
             .build()
             .register();
@@ -80,7 +80,7 @@ public class CMBlocks {
             .transform(pickaxeOnly())
             .tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .tag(Tags.Blocks.STORAGE_BLOCKS)
-            .transform(tagBlockAndItem("storage_blocks/tungsten"))
+            .transform(tagBlockAndItem(forgeBlockTag("storage_blocks/tungsten"), forgeItemTag("storage_blocks/tungsten")))
             .tag(Tags.Items.STORAGE_BLOCKS)
             .properties(Item.Properties::fireResistant)
             .build()
@@ -92,7 +92,7 @@ public class CMBlocks {
             .transform(pickaxeOnly())
             .tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .tag(Tags.Blocks.STORAGE_BLOCKS)
-            .transform(tagBlockAndItem("storage_blocks/obdurium"))
+            .transform(tagBlockAndItem(forgeBlockTag("storage_blocks/obdurium"), forgeItemTag("storage_blocks/obdurium")))
             .tag(Tags.Items.STORAGE_BLOCKS)
             .properties(Item.Properties::fireResistant)
             .build()
@@ -108,7 +108,7 @@ public class CMBlocks {
             .transform(pickaxeOnly())
             .tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .tag(Tags.Blocks.ORES)
-            .transform(tagBlockAndItem("ores/wolframite"))
+            .transform(tagBlockAndItem(forgeBlockTag("ores/wolframite"), forgeItemTag("ores/wolframite")))
             .tag(Tags.Items.ORES)
             .build()
             .register();
@@ -119,7 +119,7 @@ public class CMBlocks {
             .transform(pickaxeOnly())
             .tag(BlockTags.NEEDS_STONE_TOOL)
             .tag(Tags.Blocks.STORAGE_BLOCKS)
-            .transform(tagBlockAndItem("storage_blocks/coal_coke"))
+            .transform(tagBlockAndItem(forgeBlockTag("storage_blocks/coal_coke"), forgeItemTag("storage_blocks/coal_coke")))
             .tag(Tags.Items.STORAGE_BLOCKS)
             .build()
             .register();
@@ -130,7 +130,7 @@ public class CMBlocks {
             .transform(pickaxeOnly())
             .tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .tag(Tags.Blocks.STORAGE_BLOCKS)
-            .transform(tagBlockAndItem("storage_blocks/steel"))
+            .transform(tagBlockAndItem(forgeBlockTag("storage_blocks/steel"), forgeItemTag("storage_blocks/steel")))
             .tag(Tags.Items.STORAGE_BLOCKS)
             .build()
             .register();
